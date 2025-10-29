@@ -246,9 +246,9 @@ return {
             pnr_partner_memory={
                 name = "Memoria",
                 text = {
-                    "La primera vez que",
-                    "{C:green}renueves{} la tienda",
-                    "la primera carta es {C:dark_edition,T:memory_negative}Negativa{}",
+                    "La primera vez que {C:green}renueves{}",
+                    "la tienda la primera carta",
+                    "es {C:dark_edition,T:memory_negative}Negativa{}",
                 },
                 unlock={
                     "Gana una partida con",
@@ -273,8 +273,9 @@ return {
             pnr_partner_stoke={
                 name = "Leña",
                 text = {
-                    "{X:mult,C:white}X#1#{} Multi en tu siguiente",
-                    "mano. Haz click para pagar {C:money}$#3#{}",
+                    "{X:mult,C:white}X#1#{} Multi en tu",
+                    "siguiente mano.",
+                    "Haz click para pagar {C:money}$#3#{}",
                     "por {X:mult,C:white}X#2#{} Multi extra",
                 },
                 unlock={
@@ -287,8 +288,8 @@ return {
                 name = "Verificar",
                 text = {
                     "Haz click para pagar {C:money}$#1#{}",
-                    "y otorgar un {C:attention}Sello{} a",
-                    "{C:attention}una{} carta sleccionada",
+                    "y otorgar un {C:attention}Sello{}",
+                    "a {C:attention}1{} carta sleccionada",
                 },
                 unlock={
                     "Gana una partida con",
@@ -299,7 +300,7 @@ return {
             pnr_partner_jump={
                 name = "Salto",
                 text = {
-                    "Gana {C:attention}#1#{} etiqueta adicional",
+                    "Ganas {C:attention}#1#{} etiqueta adicional",
                     "cuando omites una {C:attention}Ciega{}",
                 },
                 unlock={
@@ -323,8 +324,8 @@ return {
             pnr_partner_vote={
                 name = "Voto",
                 text = {
-                    "Reactiva la {C:attention}primera",
-                    "carta jugada {C:attention}#1#{} vez adicional",
+                    "Reactiva la {C:attention}primera carta",
+                    "jugada {C:attention}#1#{} vez adicional",
                 },
                 unlock={
                     "Gana una partida con",
@@ -348,7 +349,7 @@ return {
                 name = "Sangrado",
                 text = {
                     "La primera carta",
-                    "de {C:hearts}Coraz[on{} otorga",
+                    "de {C:hearts}Corazón{} otorga",
                     "{X:mult,C:white}X#1#{} Multi al anotar",
                 },
                 unlock={
